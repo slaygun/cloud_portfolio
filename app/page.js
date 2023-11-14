@@ -4,8 +4,8 @@ import Hero from '../components/Hero';
 
 export default function Home() {
   return (
-    <main>
-      <div className='bg-inherit'/>
+    <main className='bg-white'>
+      <div/>
         <Navbar/>
         <Hero/>
     </main>

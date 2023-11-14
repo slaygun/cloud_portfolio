@@ -7,7 +7,7 @@ const Hero = () => {
       <img
         src="/hero.png"
         alt="Hero Image"
-        className="w-full h-full object-cover"
+        className=" h-full object-cover"
       />
 
       {/* Overlay */}
@@ -15,8 +15,9 @@ const Hero = () => {
 
       {/* Hero Content */}
       <div className="absolute text-white text-center z-10">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-4">Your Hero Title</h1>
-        <p className="text-lg md:text-xl lg:text-2xl">Your Hero Subtitle or Description</p>
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-4">Dr. Indrajeet Gupta</h1>
+        <p className="text-lg md:text-xl lg:text-2xl">Make sure all the choices you make in life come from a point
+of awareness and not ignorance.</p>
       </div>
     </div>
   );
